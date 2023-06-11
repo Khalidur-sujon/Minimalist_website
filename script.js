@@ -16,7 +16,7 @@ burger.addEventListener("click", () => {
 			{ opacity: 1, y: 20, delay: 0.25, stagger: 0.25 }
 		);
 	}
-
+	gsap.set("body", { overflow: "hidden" });
 	burger.classList.toggle("active");
 });
 
